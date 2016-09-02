@@ -1,0 +1,15 @@
+{
+  "name": "test-mocha-babel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel-register ./test/*.spec.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.14.0",
+    "babel-register": "^6.14.0"
+  }
+}
